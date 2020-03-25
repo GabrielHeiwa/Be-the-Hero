@@ -14,7 +14,7 @@ router.get('/incidents', incidents_controllers.view);
 router.delete('/incidents/:id', incidents_controllers.delete)
 
 //Profile routes
-router.post('/profile', profile_controllers.view);
+router.get('/profile', profile_controllers.view);
 
 //Login routes
 router.post('/sessions', sesionController.create)
